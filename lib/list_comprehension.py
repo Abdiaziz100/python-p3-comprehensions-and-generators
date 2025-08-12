@@ -1,7 +1,8 @@
-#!/usr/bin/env python3
-
 def return_evens(num_list):
-    pass
+    # Return only numbers divisible by 2
+    return [n for n in num_list if n % 2 == 0]
+
 
 def make_exclamation(sentence_list):
-    pass
+    # Add "!" to the end of each sentence
+    return [sentence + "!" for sentence in sentence_list]
